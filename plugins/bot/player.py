@@ -573,5 +573,5 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("♥️ OWNER ♥️", url="https://t.me/Girl_Is_Innocent"),
             ]
          ]
-    k=await m.reply_photo(photo="https://telegra.ph/file/2e690c06ac0df63b1eaee.jpg", caption="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/AsmSafone/RadioPlayerV3) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply_photo(photo="https://telegra.ph/file/2e690c06ac0df63b1eaee.jpg", caption="**Sorry, You Can't Use This Bot In This Group!**", reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
